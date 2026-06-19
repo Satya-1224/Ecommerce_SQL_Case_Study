@@ -146,11 +146,11 @@ Ecommerce_SQL_Case_Study/
 ├── schema.sql
 ├── data.sql
 ├── analysis.sql
-├── 05_aggregate_functions.sql
-├── 06_having_clause.sql
-├── 07_subqueries.sql
-├── 08_ctes.sql
-├── 09_window_functions.sql
+├── aggregate_functions.sql
+├── having_clause.sql
+├── subqueries.sql
+├── ctes.sql
+├── window_functions.sql
 └── README.md
 ```
 
