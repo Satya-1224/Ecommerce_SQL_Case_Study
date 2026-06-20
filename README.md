@@ -138,6 +138,22 @@ payments
 
 ---
 
+## 🚀 SQL Skills Demonstrated
+
+- Relational Database Design
+- Data Modeling
+- Data Aggregation
+- Multi-Table Joins
+- Business Analysis Queries
+- Customer Segmentation
+- Revenue Analysis
+- Product Performance Analysis
+- Common Table Expressions (CTEs)
+- Window Functions
+- Analytical Problem Solving
+
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -146,13 +162,43 @@ Ecommerce_SQL_Case_Study/
 ├── schema.sql
 ├── data.sql
 ├── analysis.sql
-├── aggregate_functions.sql
-├── having_clause.sql
-├── subqueries.sql
-├── ctes.sql
-├── window_functions.sql
+├── 05_aggregate_functions.sql
+├── 06_having_clause.sql
+├── 07_subqueries.sql
+├── 08_ctes.sql
+├── 09_window_functions.sql
 └── README.md
 ```
+
+---
+
+> **Note:** All screenshots were generated using PostgreSQL and pgAdmin during database creation, data population, and analytical query execution.
+
+## 📸 Project Screenshots
+
+### Database Schema
+
+![Database Schema](images/database_schema.png)
+
+### Customer Spending Analysis
+
+![Customer Spending Analysis](images/customer_spending_analysis.png)
+
+### Revenue by Category
+
+![Revenue by Category](images/category_revenue_analysis.png)
+
+### Highest Spending Customer
+
+![Highest Spending Customer](images/highest_spending_customer.png)
+
+### Customer Ranking Using Window Functions
+
+![Customer Ranking](images/customer_ranking.png)
+
+### Top 3 Customers
+
+![Top Customers](images/top_customers.png)
 
 ---
 
@@ -185,13 +231,14 @@ Ecommerce_SQL_Case_Study/
 
 ## 💡 Key Insights
 
-Based on the sample dataset:
+Analysis of the sample dataset revealed the following business insights:
 
-- Rahul Sharma is the highest spending customer.
-- Electronics is the highest revenue-generating category.
-- Laptop generates the highest revenue among products.
-- UPI is the most widely used payment method.
-- Repeat customers contribute significantly to overall revenue.
+- Rahul Sharma emerged as the highest spending customer.
+- Electronics was the top revenue-generating product category.
+- Laptop contributed the highest individual product revenue.
+- UPI was the most frequently used payment method.
+- Repeat customers generated a significant portion of total revenue.
+- Revenue was concentrated among a small number of high-value products.
 
 ---
 
